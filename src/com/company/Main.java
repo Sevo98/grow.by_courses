@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.branchingTasks.BranchingProgram;
 import com.company.linearTasks.LinearProgram;
 
 import java.util.Scanner;
@@ -21,7 +22,8 @@ public class Main {
             }
             break;
             case 2: {
-                System.out.println("Ветвления");
+                BranchingProgram branchingProgram = new BranchingProgram();
+                branchingProgram.select();
             }
             break;
             case 3: {
