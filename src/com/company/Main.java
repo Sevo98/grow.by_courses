@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.branchingTasks.BranchingProgram;
+import com.company.cyclesTasks.CyclesProgram;
 import com.company.linearTasks.LinearProgram;
 
 import java.util.Scanner;
@@ -27,7 +28,8 @@ public class Main {
             }
             break;
             case 3: {
-                System.out.println("Циклы");
+                CyclesProgram cyclesProgram = new CyclesProgram();
+                cyclesProgram.select();
             }
             break;
         }
